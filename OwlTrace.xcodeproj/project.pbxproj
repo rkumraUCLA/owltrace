@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5B2418782DD54D5500CA8A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2418622DD54D5300CA8A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2418692DD54D5300CA8A9C;
+			remoteInfo = OwlTrace;
+		};
+		5B2418822DD54D5500CA8A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2418622DD54D5300CA8A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2418692DD54D5300CA8A9C;
+			remoteInfo = OwlTrace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B24186A2DD54D5300CA8A9C /* OwlTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2418772DD54D5500CA8A9C /* OwlTraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlTraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2418812DD54D5500CA8A9C /* OwlTraceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlTraceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5B24186C2DD54D5300CA8A9C /* OwlTrace */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OwlTrace;
+			sourceTree = "<group>";
+		};
+		5B24187A2DD54D5500CA8A9C /* OwlTraceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OwlTraceTests;
+			sourceTree = "<group>";
+		};
+		5B2418842DD54D5500CA8A9C /* OwlTraceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OwlTraceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2418672DD54D5300CA8A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2418742DD54D5500CA8A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24187E2DD54D5500CA8A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2418612DD54D5300CA8A9C = {
+			isa = PBXGroup;
+			children = (
+				5B24186C2DD54D5300CA8A9C /* OwlTrace */,
+				5B24187A2DD54D5500CA8A9C /* OwlTraceTests */,
+				5B2418842DD54D5500CA8A9C /* OwlTraceUITests */,
+				5B24186B2DD54D5300CA8A9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B24186B2DD54D5300CA8A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B24186A2DD54D5300CA8A9C /* OwlTrace.app */,
+				5B2418772DD54D5500CA8A9C /* OwlTraceTests.xctest */,
+				5B2418812DD54D5500CA8A9C /* OwlTraceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2418692DD54D5300CA8A9C /* OwlTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B24188B2DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTrace" */;
+			buildPhases = (
+				5B2418662DD54D5300CA8A9C /* Sources */,
+				5B2418672DD54D5300CA8A9C /* Frameworks */,
+				5B2418682DD54D5300CA8A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5B24186C2DD54D5300CA8A9C /* OwlTrace */,
+			);
+			name = OwlTrace;
+			packageProductDependencies = (
+			);
+			productName = OwlTrace;
+			productReference = 5B24186A2DD54D5300CA8A9C /* OwlTrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B2418762DD54D5500CA8A9C /* OwlTraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B24188E2DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTraceTests" */;
+			buildPhases = (
+				5B2418732DD54D5500CA8A9C /* Sources */,
+				5B2418742DD54D5500CA8A9C /* Frameworks */,
+				5B2418752DD54D5500CA8A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2418792DD54D5500CA8A9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B24187A2DD54D5500CA8A9C /* OwlTraceTests */,
+			);
+			name = OwlTraceTests;
+			packageProductDependencies = (
+			);
+			productName = OwlTraceTests;
+			productReference = 5B2418772DD54D5500CA8A9C /* OwlTraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B2418802DD54D5500CA8A9C /* OwlTraceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2418912DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTraceUITests" */;
+			buildPhases = (
+				5B24187D2DD54D5500CA8A9C /* Sources */,
+				5B24187E2DD54D5500CA8A9C /* Frameworks */,
+				5B24187F2DD54D5500CA8A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2418832DD54D5500CA8A9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B2418842DD54D5500CA8A9C /* OwlTraceUITests */,
+			);
+			name = OwlTraceUITests;
+			packageProductDependencies = (
+			);
+			productName = OwlTraceUITests;
+			productReference = 5B2418812DD54D5500CA8A9C /* OwlTraceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2418622DD54D5300CA8A9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					5B2418692DD54D5300CA8A9C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					5B2418762DD54D5500CA8A9C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 5B2418692DD54D5300CA8A9C;
+					};
+					5B2418802DD54D5500CA8A9C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 5B2418692DD54D5300CA8A9C;
+					};
+				};
+			};
+			buildConfigurationList = 5B2418652DD54D5300CA8A9C /* Build configuration list for PBXProject "OwlTrace" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2418612DD54D5300CA8A9C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5B24186B2DD54D5300CA8A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2418692DD54D5300CA8A9C /* OwlTrace */,
+				5B2418762DD54D5500CA8A9C /* OwlTraceTests */,
+				5B2418802DD54D5500CA8A9C /* OwlTraceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2418682DD54D5300CA8A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2418752DD54D5500CA8A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24187F2DD54D5500CA8A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2418662DD54D5300CA8A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2418732DD54D5500CA8A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24187D2DD54D5500CA8A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2418792DD54D5500CA8A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2418692DD54D5300CA8A9C /* OwlTrace */;
+			targetProxy = 5B2418782DD54D5500CA8A9C /* PBXContainerItemProxy */;
+		};
+		5B2418832DD54D5500CA8A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2418692DD54D5300CA8A9C /* OwlTrace */;
+			targetProxy = 5B2418822DD54D5500CA8A9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B2418892DD54D5500CA8A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B24188A2DD54D5500CA8A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B24188C2DD54D5500CA8A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B24188D2DD54D5500CA8A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B24188F2DD54D5500CA8A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlTrace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OwlTrace";
+			};
+			name = Debug;
+		};
+		5B2418902DD54D5500CA8A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlTrace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OwlTrace";
+			};
+			name = Release;
+		};
+		5B2418922DD54D5500CA8A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTraceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OwlTrace;
+			};
+			name = Debug;
+		};
+		5B2418932DD54D5500CA8A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OwlTrace.OwlTraceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OwlTrace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2418652DD54D5300CA8A9C /* Build configuration list for PBXProject "OwlTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2418892DD54D5500CA8A9C /* Debug */,
+				5B24188A2DD54D5500CA8A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B24188B2DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B24188C2DD54D5500CA8A9C /* Debug */,
+				5B24188D2DD54D5500CA8A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B24188E2DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B24188F2DD54D5500CA8A9C /* Debug */,
+				5B2418902DD54D5500CA8A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2418912DD54D5500CA8A9C /* Build configuration list for PBXNativeTarget "OwlTraceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2418922DD54D5500CA8A9C /* Debug */,
+				5B2418932DD54D5500CA8A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2418622DD54D5300CA8A9C /* Project object */;
+}
